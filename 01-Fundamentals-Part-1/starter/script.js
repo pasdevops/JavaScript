@@ -54,6 +54,45 @@ Object	key-value pairs of collection of data	let student = { };
 Here, all data types except Object are primitive data types, whereas Object is non-primitive.
 */
 
-true;
-console.log("javascriptIsFun");
+/*Dynamic typing
+
 let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof "Jonas");
+
+javascriptIsFun = "YES";
+console.log(typeof javascriptIsFun);
+
+When you define empty variable the values will be undefined and the typeof will undefined
+
+Undefined is both the value and the type
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+This is a viable 
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null);
+*/
+
+
+/*Variable declaration
+JS Methods useed to declare variables using keywords such as var, let, and const.
+Each keyword has its own functionality that varies according to the requirements.
+
+
+
+
+
+
+
+
+
+

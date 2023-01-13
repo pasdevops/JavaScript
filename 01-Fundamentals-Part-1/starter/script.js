@@ -151,7 +151,16 @@ var job = "programer";
 job = "teacher";
 */
 
-/* Basic Operators
+
+/*
+Basic Operators
+
+An operator is a sign or symbol that specifies the type of calculation to perform within an expression. 
+There are mathematical, comparison, logical, and reference operators.
+Access supports a variety of operators, including arithmetic operators such as +, -, multiply(*), and divide(/).
+In addition to comparison operators for comparing values, text operators for concatenating text,
+and logical operators for determining true or false values.
+
 Types of JavaScript Operators
 There are different types of JavaScript operators:
 https://www.w3schools.com/js/js_operators.asp
@@ -163,21 +172,66 @@ Logical Operators
 Conditional Operators
 Type Operators
 
-An operator is a sign or symbol that specifies the type of calculation to perform within an expression. 
-There are mathematical, comparison, logical, and reference operators.
-Access supports a variety of operators, including arithmetic operators such as +, -, multiply(*), and divide(/).
-In addition to comparison operators for comparing values, text operators for concatenating text,
-and logical operators for determining true or false values.*/
-
-// Artemetics - subtraction
 
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018
 console.log(ageJonas, ageSarah);
 
-// You can  diff values at thesame time console log
-console.log(ageJonas * 2, ageJonas / 2, 2 ** 3); 
+You can  diff values at thesame time console log
+console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
+
+
+Operator precedence
+Operator precedence determines how operators are parsed concerning each other. 
+Operators with higher precedence become the operands of operators with lower precedence.
+
+    e.g.Arthmetics operators have higher precedence than comparison operators 
+    Also some right to left or left to right
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence 
+
+https://www.w3schools.com/js/js_precedence.asp
+
+*/
+
+
+/* Coding Challenge #1
+
+Mark and John are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter).
+
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+
+2. Calculate both their BMIs using the formula (you can even implement both
+versions)
+
+3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John.
+
+Test data:
+§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
+m tall.
+§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
+m tall.
+*/
+
+// Solutions
+// 1. Store Mark's and John's mass and height in variables.
+// Data 1
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / massJohn ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
 
 
 

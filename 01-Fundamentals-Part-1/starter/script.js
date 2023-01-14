@@ -325,6 +325,70 @@ console.log(jonasNew);
 //lines`);
 
 
+// Taking Decisions: if / else Statements
+
+// Code used to check if Sarah is of Age to get a drivers licence or not and her age is 19years
+// If she is allowed then she can start driving or not.
+// Legal age to drive in UK 18
+// To make that decision age has to be GREATER THAN OR EQUAL TO 18YEARS OF AGE.
+
+/* Example One
+
+First declare your variables
+Syntax for JS IF STATEMENT
+Start with if
+Open and close parenthesis brackets = conditions to be evaluated will be there
+Open curly brackets = overall run code if based on conditions inside parenthesis.
+Condition has to be a boolean value
+
+Initial stage 
+when age is 19 years
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log ('Sarah can start driving liceonce now');
+}
+
+When you added the proper syntax
+
+const age = 19;
+if (age >= 18) {
+    console.log ('Sarah can start driving liceonce now');
+}
+*/
+
+
+// Example Two
+
+// First declare your variables.
+// Syntax for JS IF STATEMENT
+// Start with if
+// Open and close parenthesis brackets = conditions to be evaluated will be there
+// Open curly brackets = overall run code if based on conditions inside parenthesis.
+// Condition has to be a boolean value
+
+// When age is 15years = no response
+
+// const age = 15;
+// if (age >= 18) {
+    //console.log ('Sarah can start driving liceonce now');
+//}
+
+// when age is 15 years PLUS ELSE STATEMENT
+// else block needs to have its own curl braces block at the end of if curly braces block
+
+const age = 15;
+if (age >= 18) {
+    console.log('Sarah can start driving liceonce now');
+} else { 
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young, wait another ${yearsLeft} years`);
+}
+
+
+
 
 
 

@@ -221,17 +221,119 @@ m tall.
 */
 
 // Solutions
-// 1. Store Mark's and John's mass and height in variables.
-// Data 1
+// Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95m tall.
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+//const massMark = 78;
+//const heightMark = 1.69;
+//const massJohn = 92;
+//const heightJohn = 1.95;
 
-const BMIMark = massMark / massJohn ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+//const BMIMark = massMark / heightMark ** 2;
+//const BMIJohn = massJohn / (heightJohn * heightJohn);
+//const markHigherBMI = BMIMark > BMIJohn;
+//console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+// Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76m tall.
+
+//const massMark = 95;
+//const heightMark = 1.88;
+//const massJohn = 85;
+//const heightJohn = 1.76;
+
+//const BMIMark = massMark / heightMark ** 2;
+//const BMIJohn = massJohn / (heightJohn * heightJohn);
+//const markHigherBMI = BMIMark > BMIJohn;
+//console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+/* Strings and Template Literals ES6 FEATURES
+
+Important part of programming
+
+Template Literals use back-ticks (``) rather than the quotes ("") to define a string:
+let text = `Hello World!`;
+
+Quotes Inside Strings - With template literals, you can use both single and double quotes inside a string:
+let text = `He's often called "Johnny"`;
+
+Multiline Strings - Template literals allows multiline strings:
+let text =
+`The quick
+brown fox
+jumps over
+the lazy dog`;
+
+Interpolation
+Template literals provide an easy way to interpolate variables and expressions into strings.
+The method is called string interpolation.
+The syntax is:
+${...}
+
+Variable Substitutions
+Template literals allow variables in strings:
+Example
+let firstName = "John";
+let lastName = "Doe";
+let text = `Welcome ${firstName}, ${lastName}!`;
+*/
+
+// Without Template literals
+
+//Declared variable
+
+//const firstName = 'Jonas';
+//const job = 'teacher';
+//const birthYear = 1991; //use birth year to calculate age
+// year = 2037;
+
+// use same quote from for each code either "" or ''
+//const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old ' + job + '!'; console.log(jonas);
+
+// With Template Literals
+// Assembling multiple pieces into one final piece.
+// Back-ticks is used for template literals
+// Above TAB KEY WINDOWS = back-ticks
+// With template literals you make use of $ (interpolation)
+// With templaate literals you assembles STRINGS, eliminate the add sign and space
+
+/*
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991; //use birth year to calculate age
+year = 2037;
+
+const jonasNew = `I'm ${firstName}, ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+*/
+
+// Back-ticks is used for ALL STRINGS FOR ANY VARIABLE.
+// E.g.
+//console.log(`Just a regular string`);
+
+// Back-ticks is used for ALL STRINGS FOR MULTILINE
+// E.g.
+
+// OLD WAYS
+// console.log(`String with \n\
+// multiple \n\
+// lines`);
+
+//NEW WAYS WITH STRING LITERALS
+//console.log(`String
+//multiple
+//lines`);
+
+
+
+
+
+
+
+
+
+
+
 
 
 

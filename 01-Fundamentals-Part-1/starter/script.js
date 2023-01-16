@@ -446,7 +446,54 @@ if (BMIMark > BMIJohn) {
 } else {
   console.log(`John's BMI (${BMIJohn})is higher than John's (${BMIMark})!`);
 }
-/*
+*/
+
+//Type Conversion and Coercion
+
+//What is Type Coercion in JavaScript?
+//Type coercion is the automatic or implicit conversion of values from one data type to another.
+//For example, converting a string value to an equivalent number value.
+//It is also known as type conversion.
+
+//Example one - string value conversion
+//const inputYear = "1991"; // string
+//console.log(inputYear + 18);
+
+// Conversion - MANUAL TYPE OF CONVERSION
+//const inputYear = "1991"; // string conversion
+//console.log(Number(inputYear), inputYear);
+//console.log(Number(inputYear) + 18);
+
+// Converting into something that is not possible to convert.
+//console.log(Number("Jonas")); // output = NaN
+//console.log(typeof NaN);
+
+//Always start a function with a capital e.g. Number, String
+// JS can only convert, NUMBER, STRING AND BOOLEAN
+//console.log(String(23), 23)
+
+//Conversion - COERCION
+// JS RESPONSIBILTY
+// COERCION DEALS WITH ONE DATA TYPE TO ANOTHER
+// CONVERSION OCCURS SEAMLESSSLY
+
+//Example
+console.log('I am ' + 23 + 'years old');
+// plus sign is utilised to the type CORCION TO OCCUR.
+// I am is a string 
+// 23 is a number hence the conversion was done
+
+console.log('23 ' - '10' - 3);
+// some other operators like - MINUS operator triggers the opposite compared plus operators
+
+console.log('23' * '2');
+
+// Another example
+console.log('23' / '2');
+
+
+
+
 
 
 

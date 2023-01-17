@@ -553,9 +553,9 @@ if (BMIMark > BMIJohn) {
 
 // Prompt function = This is used to obtain information from a user.
 
-const favourite = Number(prompt("What is your name"));
-console.log(favourite);
-console.log(typeof favourite);
+//const favourite = Number(prompt("What is your name"));
+//console.log(favourite);
+//console.log(typeof favourite);
 
 
 //if (favourite == 23) { // This is loosed equality operator/ will type coretion
@@ -565,7 +565,7 @@ console.log(typeof favourite);
 // 23 === 23 - It will work
 // 23 == 22 - It will work - bc loosed operator
 
-/*if (favourite === 23) { // This is strict equality operator/ this will not do type coretion
+/* if (favourite === 23) { // This is strict equality operator/ this will not do type coretion
     console.log('Cool! 23 is an amazing number')
 } else if (favourite === 7) {
     console.log('7 is also a cool number')
@@ -574,10 +574,63 @@ console.log(typeof favourite);
 } else {
     console.log('Number is not 23 or 7 or 9')
 }
-
-
 if (favourite !== 23) console.log('Why not 23?');
+*/
+
+
+// Boolean Logic and Logical Operators
+
+// Example A - true and false
+// console.log('Someone else should drive')
+
 /*
+const hasDriversLicence = true; //A
+const hasGoodVision = false; // B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+if (hasDriversLicence && hasGoodVision) {
+    console.log('Sarah is able to Drive');
+} else {
+    console.log('Someone else should drive');
+}
+*/
+
+// Example B - true and true
+// console.log('Sarah is able to Drive');
+
+/*
+const hasDriversLicence = true; //A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+// if (hasDriversLicence && hasGoodVision) {
+    // console.log('Sarah is able to Drive');
+// } else {
+    //console.log('Someone else should drive');
+//}
+
+const isTired = false; // c
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+if (hasDriversLicence && hasGoodVision) {
+    console.log('Sarah is able to Drive');
+} else {
+    console.log('Someone else should drive');
+}
+*/
+
+
+
+
+
+
+
     
 
 

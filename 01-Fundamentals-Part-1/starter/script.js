@@ -478,20 +478,107 @@ if (BMIMark > BMIJohn) {
 // CONVERSION OCCURS SEAMLESSSLY
 
 //Example
-console.log('I am ' + 23 + 'years old');
+//console.log('I am ' + 23 + 'years old');
 // plus sign is utilised to the type CORCION TO OCCUR.
-// I am is a string 
+// I am is a string
 // 23 is a number hence the conversion was done
 
-console.log('23 ' - '10' - 3);
+//console.log('23 ' - '10' - 3);
 // some other operators like - MINUS operator triggers the opposite compared plus operators
 
-console.log('23' * '2');
+//console.log('23' * '2');
 
 // Another example
-console.log('23' / '2');
+//console.log('23' / '2');
 
 
+//Truthy and Falsy Values 5 types
+
+// In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context.
+//All values are truthy unless they are defined as falsy.That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
+
+// A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
+
+// 0
+// ''
+// Undefined
+// null
+// NaN
+
+//console.log(Boolean(0));
+//console.log(Boolean(undefined));
+//console.log(Boolean('Jonas')); // String without any object = Truthy value
+//console.log(Boolean({})); // Empty object = Truthy value
+//console.log(Boolean('')); // Empty string conversion = false
+
+//Example ONE
+
+//const money = 0; //without money
+//if (money) {
+    //console.log("Don't spend it all ;)");
+//} else {
+   // console.log('You should get a job');
+//}
+
+
+//Example TWO
+//const money = 100; //with money
+//if (money) {
+    //console.log("Don't spend it all ;)");
+//} else {
+    //console.log('You should get a job');
+//}
+
+//Example THREE
+//const height = 100; // with falsy value
+//if (height) {
+    //console.log("Don't spend it all, buy some milk ;)");
+//} else {
+    //console.log('You should start a new job');
+//}
+
+
+// Equality Operators - returns a true or false value depending on the condition set.
+
+
+//const age = 18; // single equal = assignment operator
+//if (age === 18) // tripple === comparison operator
+    //console.log('You are an adult');
+// By default always use tripple === comparison operator.
+
+
+//const age = 18;
+//if (age == 18)
+    //console.log('You are an adult');
+
+// Prompt function = This is used to obtain information from a user.
+
+const favourite = Number(prompt("What is your name"));
+console.log(favourite);
+console.log(typeof favourite);
+
+
+//if (favourite == 23) { // This is loosed equality operator/ will type coretion
+    //console.log('Cool! 23 is an amazing number')
+//}
+
+// 23 === 23 - It will work
+// 23 == 22 - It will work - bc loosed operator
+
+/*if (favourite === 23) { // This is strict equality operator/ this will not do type coretion
+    console.log('Cool! 23 is an amazing number')
+} else if (favourite === 7) {
+    console.log('7 is also a cool number')
+} else if (favourite === 9) {
+    console.log('9 is also a cool number')
+} else {
+    console.log('Number is not 23 or 7 or 9')
+}
+
+
+if (favourite !== 23) console.log('Why not 23?');
+/*
+    
 
 
 

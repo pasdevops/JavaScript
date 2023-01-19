@@ -626,7 +626,117 @@ if (hasDriversLicence && hasGoodVision) {
 */
 
 
+/*
+Coding Challenge #3
+There are two gymnastics teams, Dolphins and Koalas. They compete against each 
+other 3 times.The winner with the highest average score wins a trophy!
 
+Your tasks:
+1. Calculate the average score for each team, using the test data below
+
+2. Compare the team's average scores to determine the winner of the competition, 
+and print it to the console. Don't forget that there can be a draw, so test for that 
+as well(draw means they have the same average score)
+
+3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a 
+team only wins if it has a higher score than the other team, and the same time a 
+score of at least 100 points. Hint: Use a logical operator to test for minimum 
+score, as well as multiple else -if blocks �
+
+4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when 
+both teams have the same score and both have a score greater or equal 100 
+points.Otherwise, no team wins the trophy
+
+Test data:
+§ Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+§ Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+§ Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+*/
+
+/*
+const scoreDolphine = (96 + 108 + 89) / 3; 
+const scoreKoalas = (88 + 100 + 110) / 3; // change the koalas no to 100 and see thanges in the code
+console.log(scoreDolphine, scoreKoalas);
+
+if (scoreDolphine > scoreKoalas) {
+    console.log('Dolphine win the trophy!!!!');
+} else if (scoreKoalas > scoreDolphine) {
+    console.log('Koalas win the trophy!!!');
+} else if (scoreDolphine === scoreKoalas) {
+    console.log('Both with the trophy');
+}
+*/
+
+/*Bonus 1
+
+const scoreDolphine = (97 + 112 + 101) / 3; 
+const scoreKoalas = (109 + 95 + 123) / 3; // change the koalas no to 100 and see thanges in the code
+console.log(scoreDolphine, scoreKoalas);
+
+if (scoreDolphine > scoreKoalas) {
+    console.log('Dolphine win the trophy!!!!');
+} else if (scoreKoalas > scoreDolphine) {
+    console.log('Koalas win the trophy!!!');
+} else if (scoreDolphine === scoreKoalas) {
+    console.log('Both with the trophy');
+}
+*/
+
+/* The JavaScript Switch Statement
+Use the switch statement to select one of many code blocks to be executed.
+
+Syntax
+
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+*/
+
+/*
+const day = 'Tuesday'; // Change the variable to see output
+
+switch (day) { // Design for equality day === 'monday' Not for comparison
+    case 'monday':
+    console.log('Plan the couse structure');
+    console.log('Go to stand-up meeting');
+        break;
+    case 'Tuesday':
+    console.log('Prepare food and shopping');
+        break;
+    case 'Wednesday':
+    console.log('Write code examples');
+        break;
+    case 'Thursday':
+    console.log('Do school runs');
+        break;
+    case 'Friday':
+    console.log('Check to see the pipeline is running');
+        break;
+    case 'Sataurday':
+    console.log('Help out with anu BAU tasks');
+    break;
+}
+*/
+
+
+// Statements and Expressions - A code that produce any value
+
+//In computer programming a statement can be thought of as the smallest standalone element of an imperative programming language.
+
+// A program is formed by a sequence of one or more statements.
+
+// A statement will have internal components(e.g., expressions).
+
+// JS expects statements and expression in different places.
+
+// console.log(`I'm ${2037 -1991} years old ${me}`)
 
 
 

@@ -739,9 +739,125 @@ switch (day) { // Design for equality day === 'monday' Not for comparison
 // console.log(`I'm ${2037 -1991} years old ${me}`)
 
 
+/*
+Ternary Operator
+The ternary operator is a simplified conditional operator like if / else.
+
+Syntax: condition ? <expression if true> : <expression if false>
+
+Here is an example using if / else:
+
+*/
+
+// Example one - Ternary Operator syntax short method.
+
+// const age = 120;
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
 
 
-    
+// Example two - Ternary Operator syntax longer method.
+
+//const age = 15;
+
+//let drink2;
+//if (age >= 18) {
+    //drink2 = 'wine';
+//} else {
+    //drink2 = 'water';
+//}
+//console.log(drink2);
+
+/*
+The "use strict" Directive
+The "use strict" directive was new in ECMAScript version 5.
+
+Forbids things that are not required in your code.
+Helps to create visible errors
+
+
+It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+
+The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+
+With strict mode, you can not, for example, use undeclared variables.
+
+All modern browsers support "use strict" except Internet Explorer 9 and lower:
+
+*/
+
+
+
+// A JavaScript function is a block of code designed to perform a particular task.
+// A JavaScript function is executed when "something" invokes it (calls it).
+// This a process that helps in re using codes.
+// Function can recieve data and return data
+// DRY = DONT REPEAT YOURSELF
+
+// Function Declaration
+// Functions in JavaScript allow us to carry out some set of actions, important decisions, or calculations and even makes our website more interactive.
+
+
+// function logger() {
+    //console.log('my name is Jonas');
+//}
+//logger();
+//logger();
+//logger();
+
+// This called invoking a functions
+// This called calling a functions
+// This called running a functions
+
+/*
+function fruitProcessor(apples, oranges) {
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+
+const appleOrangeJuice = fruitProcessor(4, 2);
+console.log(appleOrangeJuice);
+*/
+
+
+/*
+Function declaration 
+- A function declaration also known as a function statement declares a function with a function keyword. The function declaration must have a function name.
+- Function declaration does not require a variable assignment as they are standalone constructs and they cannot be nested inside a functional block.
+- These are executed before any other code.
+- The function in function declaration can be accessed before and after the function definition
+*/
+// Function declaration example
+
+function calcAge1(birthYear) {
+    return 2037 - birthYear;
+}
+const age1 = calcAge1(1991);
+
+/*
+Function expresssion
+-A function Expression is similar to a function declaration without the function name.
+-Function expressions can be stored in a variable assignment.
+-Function expressions load and execute only when the program interpreter reaches the line of code.
+-The function in function expression can be accessed only after the function definition.
+*/
+// Function expression example
+
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+const age2 = calcAge2(1991);
+console.log(age1, age2);
+
+// Function expression is the prefered FUNCTION METHOD to be used.
+// It hels to define all the function on the code and the call them.
+// Helps to store variable and values
+// Both Function expression and declaration have a place in JS
+
+
 
 
 

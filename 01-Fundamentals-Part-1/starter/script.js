@@ -925,6 +925,22 @@ hello = () => {
 
 // Functions Calling Other Functions
 
+//onst cutPieces = function (fruit) {
+   // return fruit * 4; // You can change the fruit values of the functions 
+//};
+
+//const fruitProcessor = function (apples, oranges) {
+
+    //const applePieces = cutPieces(apples); //  fruitProcessor calling cutPieces x 1
+    //const orangePieces = cutPieces(oranges); // fruitProcessor calling cutPieces x 1
+    
+    //const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange.`;
+    //return juice;
+    
+//};
+
+
+
 
 
 

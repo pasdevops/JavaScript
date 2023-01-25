@@ -832,10 +832,10 @@ Function declaration
 */
 // Function declaration example
 
-function calcAge1(birthYear) {
-    return 2037 - birthYear;
-}
-const age1 = calcAge1(1991);
+//function calcAge1(birthYear) {
+    //return 2037 - birthYear;
+//}
+//const age1 = calcAge1(1991);
 
 /*
 Function expresssion
@@ -846,16 +846,86 @@ Function expresssion
 */
 // Function expression example
 
-const calcAge2 = function (birthYear) {
-    return 2037 - birthYear;
-}
-const age2 = calcAge2(1991);
-console.log(age1, age2);
+//const calcAge2 = function (birthYear) {
+    //return 2037 - birthYear;
+//}
+//const age2 = calcAge2(1991);
+//console.log(age1, age2);
 
 // Function expression is the prefered FUNCTION METHOD to be used.
 // It hels to define all the function on the code and the call them.
 // Helps to store variable and values
 // Both Function expression and declaration have a place in JS
+
+
+//JavaScript Arrow Function
+//Arrow functions were introduced in ES6.
+//Arrow functions allow us to write shorter function syntax:#
+
+// Example
+
+/*
+let myFunction = (a, b) => a * b;
+
+Before Arrow:
+hello = function() {
+  return "Hello World!";
+}
+
+
+With Arrow Function:
+hello = () => {
+  return "Hello World!";
+}
+*/
+
+// Comaprison of Arrow function  with Function Expression
+
+// function expression
+
+//const calcAge3 = function (birthyear) {
+    //return 2037 - birthyear;
+//}
+
+// Arrow function
+// Easy and faster to write
+// No curly bracess needed
+// Return happens implicitly - no return keyword written
+// No paraenteses needed to be written
+
+// Example one - birthyear
+//const calcAge4 = birthYear => 2037 - birthYear;
+//const age4 = calcAge4(1991); // Save return value to a variable
+//console.log(age4);
+
+//Example two - Years until retirement
+// Return function is used because of the lines of code trying to calculate retirement age.
+// Multiple lines of codes are needed when you cal many things
+
+
+// const yearsUntilRetirement = birthYear => {
+//     const age = 2037 - birthYear;
+//     const retirement = 65 - age;
+//     return retirement;
+// }
+// console.log(yearsUntilRetirement(1991));
+
+
+//Example three - When you have muliple paramenters
+// Utilise paratheses to wrap multiple parameters
+
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//const age = 2037 - birthYear;
+//const retirement = 65 - age;
+//return `${firstName} retires in ${retirement} years`;
+//console.log(yearsUntilRetirement(1991, 'Jonas'));
+//console.log(yearsUntilRetirement(1980, 'Bob'));
+
+
+// Functions Calling Other Functions
+
+
 
 
 

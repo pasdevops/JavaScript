@@ -939,10 +939,33 @@ hello = () => {
     
 //};
 
+//  Reviewing Functions
 
+//function calcAge(birthYear, firstName) {
+//const age = 2037 - birthYear;
+//console.log(`${firstName} retires in ${retirement} years old`);
+//return age;
+//const age = calcAge(1991, 'Jonas')
 
+// Descriptions of the code
 
+// Function name = calcAge
 
+// (birthYear, firstName) = Parameters: placeholders to receive input values Like local variables of a function.
+
+// Function body = Block of code that we want to reuse . Processes the function's input data
+// const age = 2037 - birthYear;
+// console.log(`${firstName} retires in ${retirement} years old`);
+
+// return age; = return statement to output a value from the function and terminate execution
+
+// const age = calcAge(1991, 'Jonas') = Calling or invoking or running a function uses (parentheses)
+
+// 1991, 'Jonas' = Arguments actual values of the function parameter to input data.
+
+// const age = Variable to save returned value (function output)
+
+// console.log in the function body = It is use to print out values for the developer output, it has nothing to do with RETURN VALUE
 
 
 

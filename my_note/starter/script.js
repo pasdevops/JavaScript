@@ -1073,8 +1073,7 @@ hello = () => {
 // ARRAY Coding Challenge #2
 
 // Steven is still building his tip calculator, using the same rules as before: Tip 15% of
-// the bill if the bill value is between 50 and 300, and if the value is different, the tip is
-// 20%.
+// the bill if the bill value is between 50 and 300, and if the value is different, the tip is 20%.
 
 // Your tasks:
 
@@ -1093,4 +1092,8 @@ hello = () => {
 
 // Test data: 125, 555 and 44
 
-const calcTip = [125, 555, 44];
+// const calcTip = function (bill) {
+//     return bill >= && bill <= bill * 0.15: bill * 0.2;
+// }
+
+// const calcTip = bill => bill => 50 && bill <= 300 ? bill * 0.15: bill *0.2:

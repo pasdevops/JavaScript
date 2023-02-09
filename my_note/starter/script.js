@@ -1097,3 +1097,75 @@ hello = () => {
 // }
 
 // const calcTip = bill => bill => 50 && bill <= 300 ? bill * 0.15: bill *0.2:
+
+// Introduction to Objects
+// Objects are variables too. But objects can contain many values.
+// const car = {type:"Fiat", model:"500", color:"white"};
+// The values are written as name:value pairs (name and value separated by a colon)
+
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Shmit",
+//   age: 2037 - 1991,
+//   job: "Teacher",
+//   friends: ["Mike", "Peter", "Russell"],
+// };
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// This is a way to pull data from an object
+// Dot. is the operator to goes to the object and retrieve the property
+
+//console.log(jonas["lastName"]);
+// This is a way to pull data from an object
+// Bracket is used as the operator to goes to the object and retrieve the property
+// Operations is an expression
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]);
+// console.log(jonas["last" + nameKey]);
+// This is a way to pull data from an object
+// Square bracket is utilised in this case
+// Bracket notation is used to carry out action on first and last name expression
+// Any other typre of expression can used DOT notation
+
+// Dot notation vs Bracket notation in JavaScript
+// The dot notation and bracket notation both are used to access the object properties in JavaScript.
+// The dot notation is used mostly as it is easier to read and comprehend and also less verbose.
+// The main difference between dot notation and bracket notation is that the bracket notation allows us to access object properties using variable.
+
+// // Propmt method
+// A prompt box is used if you want the user to input a value.
+// When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+// Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
+
+// const interestedIn = prompt(
+//   "What do you want to know about jonas? Choose between firstName, lastName, age, job, and friends"
+// );
+// console.log(jonas[interestedIn]);
+
+// How to deal with Undefined properties
+// Undefined is a falsey values
+// Below is a custom string example when a USER tries to access a property that does not exists
+
+// if (jonas[interestedIn]) {
+//   console.log(jonas[interestedIn]);
+// } else {
+//   console.log(
+//     "Wrong request! Choose between firstName, lastName, age, job, and friends"
+//   );
+// }
+
+// Adding new properties to an object.
+// Example
+
+// jonas.loaction = "Portugal";
+// jonas["twitter"] = "@jonas";
+// console.log(jonas);
+
+// Challenge
+// "Jonas has 3 friends, and his best friend is called Michael"
+// Task is to DYNAMICALLY get Jonas, 3 friends and Micheal
+// console.log(
+//   `${jonas.firstName} has ${jonas.friends.length}, and his best friend is called ${jonas.friends[0]}`
+// );
